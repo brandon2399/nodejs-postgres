@@ -2,4 +2,4 @@
 
 # 2 npm run dev
 
-# 3 docker-compose-up
+# 3 docker-compose up -d
