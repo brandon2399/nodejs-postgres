@@ -9,3 +9,4 @@ psql -h localhost -d my_store brandon
 
 # salir de la base de datos 
 \q
+
