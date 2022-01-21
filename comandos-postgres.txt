@@ -1,0 +1,11 @@
+# conectar al contenedor
+docker-compose exec postgres bash
+
+#conectar a la base de datos my_store con usuario brandon
+psql -h localhost -d my_store brandon
+
+# para saber estructura de la base de datos 
+\d+
+
+# salir de la base de datos 
+\q
