@@ -1,9 +1,3 @@
-// integracion node-postgres
-// pg es el driver de node 
-// creamos capa de librerias en un dir podemos nombralo libs
-// las librerias se encargan de conexion a terceros (como api o base de datos)
-// los servicios son logica de negocio 
-
 const { Client } = require('pg');
 
 async function getConnection() {
@@ -19,7 +13,3 @@ async function getConnection() {
 }
 
 module.exports = getConnection;
-
-
-
-// ahora ya podemos ir a nuestros servicios para utilizar el getConnection

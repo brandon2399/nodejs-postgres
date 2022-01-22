@@ -1,7 +1,5 @@
 const boom = require('@hapi/boom');
 
-
-
 class OrderService {
 
   constructor(){
